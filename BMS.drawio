@@ -1,11 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2022-10-30T12:09:47.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GOmwyPbK4sJSk6y8n6qq" version="20.5.1" type="github">
-  <diagram id="-Dsbe07-NSSsR5EDzLi5" name="第 1 页">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-10-30T12:27:11.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-9gWM7-WMQpkmHt7AeO8" version="20.5.1" type="github">
+  <diagram id="-Dsbe07-NSSsR5EDzLi5" name="BillingSystemArchitecture">
+    <mxGraphModel dx="2013" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xHSVK-veDEElf7Jq91R1-1" value="计费系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="400" as="sourcePoint" />
+            <mxPoint x="900" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-3" value="业务场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-4" value="标准化的报价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-5" value="差异化的折扣" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-6" value="差异化的定价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-7" value="领域模型主体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-8" value="计费规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-9" value="计费引擎&lt;br&gt;以自然化的语言&lt;br&gt;表达计费计算过程内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-10" value="客户配置管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-11" value="用户配置管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-12" value="计费 方案/流程 管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-13" value="自动化对账&lt;br&gt;业务-计费-账单-资金" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-14" value="人工重算/调账" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-15" value="自动化对账" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-16" value="账单经营分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-17" value="预计费估算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-18" value="审批流程服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHSVK-veDEElf7Jq91R1-19" value="计费要素诊断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
